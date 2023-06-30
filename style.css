@@ -12,7 +12,7 @@
 body{
   width: 100vw;
   height: 100vh;
-  background: #fff url(/cover.jpg) center center/cover no-repeat;
+  background: #fff url(./cover.jpg) center center/cover no-repeat;
   /* background: linear-gradient(90deg, rgba(68,58,238,1) 0%, rgba(44,46,130,1) 26%, rgba(98,36,168,1) 61%, rgba(205,1,252,1) 90%, rgba(209,0,255,1) 91%); */
 
   color: #fff;
