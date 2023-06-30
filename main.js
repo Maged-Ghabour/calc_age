@@ -63,3 +63,8 @@ function getDaysInMontn(years, months) {
   return new Date().getDate(years,months,0)
 }
 
+
+
+window.addEventListener('load', () => {
+  document.querySelector('.preloader').style.display = 'none';
+})
