@@ -41,6 +41,7 @@ calcBtn.addEventListener('click', (e) => {
     d3 = d2 - d1;
   } else { 
     m3--;
+    console.log(getDaysInMontn(y1, m1));
     d3 = getDaysInMontn(y1, m1) + d2 - d1;
   }
 
@@ -60,11 +61,11 @@ calcBtn.addEventListener('click', (e) => {
 
 
 function getDaysInMontn(years, months) {
-  return new Date().getDate(years,months,0)
+  return new Date(years,months,0).getDate()
 }
 
 
 
 window.addEventListener('load', () => {
-  document.querySelector('.preloader').style.display = 'none';
+      document.querySelector('.preloader').style.display = 'none';
 })
